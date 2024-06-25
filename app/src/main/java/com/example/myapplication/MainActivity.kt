@@ -29,6 +29,12 @@ class MainActivity : AppCompatActivity() {
         Log.e(TAG,"activity is started")
     }
 
+    //chick has woken up -- activity comes back to the foreground
+    override fun onResume() {
+        super.onResume()
+        Log.w(TAG,"activity has resumed")
+    }
+
     //sleep night -- incomming call ur activity goes into the background for sometime
     override fun onPause() {
         super.onPause()
@@ -62,6 +68,7 @@ class MainActivity : AppCompatActivity() {
 
         var hIntent:Intent = Intent(this,HomeActivity::class.java)
         hIntent.putExtra("mykey","android-vit-abdul")
+        throw NullPointerException("demo vit exception")
         startActivity(hIntent)
     }
     fun inflateXml(){
