@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>"hindi"</item>
+        <item>"telugu"</item>
+        <item>"tamil"</item>
+        <item>"urdu"</item>
+        <item>malyalam</item>
+        <item>bangla</item>
+    </string-array>
+    <string-array name="countries">
+        <item>India</item>
+        <item>usa</item>
+        <item>uk</item>
+        <item>australia</item>
+        <item>malaysia</item>
+        <item>indonesia</item>
+
+    </string-array>
+
+</resources>

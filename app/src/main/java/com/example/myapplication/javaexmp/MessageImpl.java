@@ -1,4 +1,4 @@
-package com.example.myapplication.javaexmp;
+package com.example.myapplication.javaexmp.lamdas;
 
 public class MessageImpl implements iMessage{
     public void sendmessage(){

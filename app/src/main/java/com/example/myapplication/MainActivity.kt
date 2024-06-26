@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        // var myEmp = Employee("krishna")
+        var myEmp = employee("krishna")
         //inflate this xml
         setContentView(R.layout.activity_main)
         Log.i(TAG,"activity is getting created")
@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
         var c = 10 + 20
         add(10,20)
 
-        var hIntent:Intent = Intent(this,HomeActivity::class.java)
+        var hIntent:Intent = Intent(this,Homeactivity::class.java)
         hIntent.putExtra("mykey","android-vit-abdul")
         //throw NullPointerException("demo vit exception")
         startActivity(hIntent)
